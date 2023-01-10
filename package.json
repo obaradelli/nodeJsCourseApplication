@@ -8,6 +8,9 @@
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch nome_modules --respawn src/server.ts"
   },
   "dependencies": {
+    "@types/csv-parse": "^1.2.2",
+    "csv": "^6.2.5",
+    "csv-parse": "^5.3.3",
     "express": "^4.18.2",
     "multer": "^1.4.5-lts.1",
     "uuid": "^9.0.0"
