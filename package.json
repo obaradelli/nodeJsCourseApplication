@@ -5,16 +5,18 @@
   "author": "Marcos Tognetti Baradelli <marcostognetti123@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch nome_modules --respawn src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch nome_modules --respawn src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "csv-parse": "^4.15.3",
     "express": "^4.17.1",
-    "multer": "^1.4.2",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.0.0",
     "pg": "^8.5.1",
     "reflect-metadata": "^0.1.13",
     "swagger-ui-express": "^4.1.6",
-    "typeorm": "^0.2.31",
+    "typeorm": "^0.2.28",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
