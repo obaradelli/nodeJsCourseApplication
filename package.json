@@ -9,8 +9,13 @@
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.0",
+    "bcrypt": "^5.1.0",
     "csv-parse": "^4.15.3",
     "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.0",
     "multer": "^1.4.5-lts.1",
     "pg": "^8.5.1",
     "reflect-metadata": "^0.1.13",
