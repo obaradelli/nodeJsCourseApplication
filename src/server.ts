@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import express, { NextFunction, Request, response, Response } from "express";
+import express, { NextFunction, Request, Response } from "express";
 import "express-async-errors";
 import { router } from "./routes";
 import swaggerFile from "./swagger.json";
